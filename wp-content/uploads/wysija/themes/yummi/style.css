@@ -1,0 +1,54 @@
+/*
+Theme Name: Yummi
+Description: This is as as pink as it gets. Candies? Sweet!
+Author: ArtCore
+Author URI: http://artcore-illustrations.de/
+Author Email: artcorehro@googlemail.com
+Tags: pink, candy
+
+Note: the styles below offer all the possibilities of Wysija. The plugin won't recognize any additional styles if you add them.
+
+*/
+html {
+    background-color: #e04c65; /* cannot be transparent and will default to white */
+}
+
+header {
+    background-color: transparent; /* can be transparent */
+}
+body {
+    color:#7a7a7a;
+    font-family: "Arial";
+    font-size: 13px;
+    background-color: #ffffff; /* can be transparent */
+}
+footer {
+    background-color: transparent; /* can be transparent */
+}
+h1 {
+    color: #c8de31;
+    font-family: "Arial";
+    font-size: 36px;
+}
+h2 {
+    color: #c8de31;
+    font-family: "Arial";
+    font-size: 30px;
+}
+h3 {
+    color: #c8de31;
+    font-family: "Arial";
+    font-size: 24px;
+}
+a {
+    color: #d83550;
+    text-decoration:underline;
+}
+unsubscribe {
+    color:#ffffff;
+}
+viewbrowser {
+	font-family:'Arial';
+	font-size:11px;
+	color:#ffffff;
+}

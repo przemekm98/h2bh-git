@@ -1,0 +1,1 @@
+<?php die(); ?>{"headers":{"Vary":"Vary: Cookie","X-Robots-Tag":"X-Robots-Tag: noindex, follow","Content-Type":"Content-Type: text\/xml; charset=UTF-8","Last-Modified":"Last-Modified: Thu, 15 Feb 2018 23:39:52 GMT"},"uri":"how2behealthy.nl\/ep-bouwer-template-sitemap.xml","blog_id":1,"post":0,"key":"how2behealthy.nl443\/ep-bouwer-template-sitemap.xml"}

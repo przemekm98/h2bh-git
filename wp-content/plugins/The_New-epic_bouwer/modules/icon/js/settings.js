@@ -1,0 +1,16 @@
+(function($){
+
+	EPBOUWER.registerModuleHelper('icon', {
+		
+		rules: {
+			icon: {
+				required: true
+			},
+			size: {
+				number: true,
+				required: true
+			}
+		}
+	});
+
+})(jQuery);

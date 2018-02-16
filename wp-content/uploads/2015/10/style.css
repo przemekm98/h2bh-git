@@ -1,0 +1,165 @@
+/*
+Theme Name: My New Child Theme
+Theme URI: http://www.premiumpress.com
+Description: PremiumPress Child Theme
+Author: samsamie00@gmail.com
+Author URI: https://how2behealthy.nl
+Template: [XXX]
+Version: 1.0
+*/
+
+/* =============================================================================
+  SHOP THEME BY MARK FAIL
+   ========================================================================== */
+   
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(style_childtheme.css);
+
+body {
+    background:#dfdfdf url(img/bg.png);
+    font-family:'Open Sans',sans-serif
+}
+/* REMOVE ROUNDED CORNERS */ 
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+} 
+a { color:#222 }
+
+/*------------------------------------------------------*/
+/* GOOGLE FONT
+/*------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6, #core_menu_wrapper .nav > li > a {
+	font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+#core_logo {  padding-bottom:15px; padding-left:0px; }
+#core_logo .main { color:#000;   font-family: 'Oleo Script', cursive; font-size:50px;   }
+#core_logo .submain { color:#000; margin-top:-10px; color:#999; font-size:12px; }
+@media (max-width: 768px){
+#core_logo .main {  font-size: 45px;}
+#core_logo .submain {  font-size: 12px;}
+}
+@media (max-width: 990px) and (min-width: 0px){
+#core_logo .main { font-size:50px; }
+#core_logo .submain { font-size:14px; }
+}
+
+#wlt_searchbox_form .text-right { margin-top:10px; }
+
+/*------------------------------------------------------*/
+/* CORE ADJUSTMENTS
+/*------------------------------------------------------*/
+.page-wrapper {
+    margin:0 auto;
+    border:1px solid #fff;
+    border-width:0 1px;
+    -webkit-box-shadow:0 0 25px 0 #b0b0b0;
+    box-shadow:0 0 25px 0 #b0b0b0; 
+    padding-top:0;
+    background:#fff;
+    min-height:800px;
+ 
+}
+.core_section_top_container { padding:0px; }
+#wlt_basketbar, #wlt_shop_language, #wlt_shop_currency { margin-top:-8px; }
+.featuredsticker {  top: -15px;  left: -15px; }
+.single .featuredsticker {  top: -5px;  left: -5px; }{  top: -5px;  left: -5px; }
+
+/*------------------------------------------------------*/
+/* BUTTONS
+/*------------------------------------------------------*/
+
+.btn-primary {
+  background-image: none;
+  background: #047CC9;
+  border-color: #047CC9;
+}
+
+.btn-primary:hover,.btn-primary:active,.btn-primary.active,.btn-primary.disabled,.btn-primary[disabled] {
+    color:#fff;
+    background-color:#606060
+}
+
+/*------------------------------------------------------*/
+/* TOP NAVIGATION
+/*------------------------------------------------------*/
+
+#core_header_navigation {  border-bottom: 1px solid #efefef; }
+#core_header_navigation .nav > li a {
+    color:#ccc;
+    text-transform:uppercase;
+    font-weight:400;
+    font-size:11px
+}
+
+/*------------------------------------------------------*/
+/* MAIN MENU
+/*------------------------------------------------------*/
+
+#core_menu_wrapper {    background-color:#efefef; border-left: 1px solid #EDEDED;  }
+ 
+#core_menu_wrapper .navbar-collapse {    border-bottom:0 }
+#core_menu_wrapper .navbar-nav > li {
+    border-right:1px solid #eaeaea;
+    min-width:140px;
+    background-image:-moz-linear-gradient(top,#fff,#F8F8F8);
+    background-image:-webkit-gradient(linear,0 0,0 100%,from(#fff),to(#F8F8F8));
+    background-image:-webkit-linear-gradient(top,#fff,#F8F8F8);
+    background-image:-o-linear-gradient(top,#fff,#F8F8F8);
+    background-image:linear-gradient(to bottom,#fff,#F8F8F8);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#F8F8F8',GradientType=0);
+    filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)
+}
+
+#core_menu_wrapper .navbar-nav > li a {    color:#666;    text-align:center;    text-transform:uppercase; font-size:16px;}
+#core_menu_wrapper .navbar-nav > li a:hover { background-color: rgba(0, 0, 0, 0.1); }
+#core_menu_wrapper .navbar-nav > li.current-menu-item {
+background: rgb(33,166,223); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(33,166,223,1) 0%, rgba(0,119,198,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(33,166,223,1)), color-stop(100%,rgba(0,119,198,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(33,166,223,1) 0%,rgba(0,119,198,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(33,166,223,1) 0%,rgba(0,119,198,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(33,166,223,1) 0%,rgba(0,119,198,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(33,166,223,1) 0%,rgba(0,119,198,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#047CC9', endColorstr='#0077c6',GradientType=0 ); /* IE6-9 */
+
+}
+#core_menu_wrapper .navbar-nav > li.current-menu-item a {    color:#fff}
+#core_menu_wrapper .navbar-nav > li:first-child { margin-left:-1px }
+
+/*** STYLE 4 */
+.header_style4 .wlt_searchbox input {   border: 1px solid #efefef; }
+.header_style4 .wlt_searchbox .glyphicon {  top: 5px;}
+
+/*------------------------------------------------------*/
+/* PANELS & SIDEBAR
+/*------------------------------------------------------*/
+  
+.panel-default>.panel-heading { background: #047CC9; color:#fff; font-weight:bold; }
+ #core_advanced_search_widget_box {  background: rgb(246, 251, 255); }
+ 
+/*------------------------------------------------------*/
+/* SEARCH RESULTS
+/*------------------------------------------------------*/
+
+.search .core_middle_wrap, .archive .core_middle_wrap {   padding: 20px;  border: 1px solid #ddd; margin-bottom:20px; }
+._searchresultsblock h4  {  background: #efefef;  padding: 10px;     color: #999; }
+
+/*------------------------------------------------------*/
+/* HOME LAYOUT CHANGES
+/*------------------------------------------------------*/
+
+.jumbostyle1 .jumbotron { margin-bottom:10px; }
+.jumbotron h1 {
+    font-size: 63px;
+    font-family: 'Oleo Script', cursive;
+}
+localhost/medi
+.jumbostyle1 .btn {   background-color: #047CC9; border:0px; }
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {  background-color: #8BBF42;  border-color: #8BBF42; }
+
+.boxes1 .wrap:hover a  { background: #047CC9; }

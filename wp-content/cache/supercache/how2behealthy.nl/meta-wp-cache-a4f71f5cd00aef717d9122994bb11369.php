@@ -1,0 +1,1 @@
+<?php die(); ?>{"headers":{"Vary":"Vary: Cookie","Content-Type":"Content-Type: text\/html; charset=UTF-8","Link":"Link: <https:\/\/how2behealthy.nl\/wp-json\/>; rel=\"https:\/\/api.w.org\/\"","Last-Modified":"Last-Modified: Fri, 16 Feb 2018 03:56:24 GMT"},"uri":"how2behealthy.nl\/?author=0","blog_id":1,"post":0,"key":"how2behealthy.nl443\/?author=0"}
